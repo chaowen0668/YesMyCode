@@ -17,17 +17,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".example.RecycleViewActivity"/>
-        <activity android:name=".example.EditTextFLActivity"/>
-        <activity android:name=".example.CardViewActivity"/>
+        <activity android:name=".example.RecycleViewActivity" />
+        <activity android:name=".example.EditTextFLActivity" />
+        <activity android:name=".example.CardViewActivity" />
         <activity
             android:name=".example.AppBarDetailActivity"
-            android:theme="@style/DrawerLayoutTheme"/>
+            android:theme="@style/DrawerLayoutTheme" />
         <activity
             android:name=".book.BookDetailActivity"
-            android:theme="@style/DrawerLayoutTheme"/>
-
-        <activity android:name=".example.BottomTabActivity"/>
+            android:theme="@style/DrawerLayoutTheme" />
+        <activity android:name=".example.BottomTabActivity" />
+        <activity
+            android:name=".Activity.SpinnerTest"
+            android:label="@string/title_activity_spinner_test"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_name">
+        <item>http://blog.csdn.net/gao_chun</item>
+        <item>今天在下雨</item>
+        <item>明天是晴天</item>
+        <item>后天不知道</item>
+        <item>食堂上楼捡到妹子一捆</item>
+        <item>垃圾堆旁边拾到一只</item>
+        <item>公司门口捡到妹子一堆</item>
+        <item>回家路上拾到妹子一火车</item>
+    </string-array>
+
+</resources>
