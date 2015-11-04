@@ -15,4 +15,17 @@
     <!-- 线 -->
     <color name="line">#e2e2e2</color>
     <!-- 分割线 -->
+
+    <!-- 黑色 -->
+    <color name="text_gray_dark">#666666</color>
+    <!-- 绿色字体 -->
+    <color name="text_black">#333333</color>
+    <!-- 公共 -->
+    <color name="transparent">#00000000</color>
+    <!-- 黑色色字体 -->
+    <color name="text_black_light">#222222</color>
+
+    <!--listview按下背景-->
+    <color name="list_item_background_normal">#ffffff</color>
+    <color name="list_item_background_pressed">#F1F1F1</color>
 </resources>

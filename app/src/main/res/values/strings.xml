@@ -44,6 +44,7 @@
     <string name="title_activity_spinner_test">SpinnerTest</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_customer_dialog">CustomerDialogActivity</string>
 
 
 </resources>

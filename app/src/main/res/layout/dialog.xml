@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dailog"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="标题"
+        android:textColor="@color/text_gray_dark"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line" />
+
+    <FrameLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="@color/text_black"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@null"
+            android:listSelector="@drawable/list_item_background"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button_positive"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_defautl_green"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/layout_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/button_positive2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_defautl_green"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/view_line_left"
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#adadad"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button_nuetral"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_defautl_green"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/view_line_right"
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#adadad"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button_negative"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_defautl_green"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

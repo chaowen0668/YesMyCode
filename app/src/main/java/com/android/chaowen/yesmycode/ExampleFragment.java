@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.android.chaowen.yesmycode.Activity.CustomerDialogActivity;
 import com.android.chaowen.yesmycode.Activity.SpinnerTest;
 import com.android.chaowen.yesmycode.widget.DividerItemDecoration;
 import com.android.chaowen.yesmycode.widget.RecyclerItemClickListener;
@@ -40,23 +41,11 @@ public class ExampleFragment extends Fragment {
                     intent = new Intent(getActivity(), SpinnerTest.class);
                     startActivity(intent);
                     break;
-            /*    case 1:
-                    intent = new Intent(getActivity(), EditTextFLActivity.class);
-                    startActivity(intent);
-                    break;
                 case 2:
-                    intent = new Intent(getActivity(), CardViewActivity.class);
-                    startActivity(intent);
-                    break;
-                case 3:
-                    intent = new Intent(getActivity(), AppBarDetailActivity.class);
+                    intent = new Intent(getActivity(), CustomerDialogActivity.class);
                     startActivity(intent);
                     break;
 
-                case 4:
-                    intent = new Intent(getActivity(), BottomTabActivity.class);
-                    startActivity(intent);
-                    break;*/
             }
 
 
@@ -78,7 +67,7 @@ public class ExampleFragment extends Fragment {
         mRecyclerView.setItemAnimator(new DefaultItemAnimator());
 
         // specify an adapter (see also next example)
-        myDataset = new String[]{"Google控件示例", "自定义Spinner控件"
+        myDataset = new String[]{"Google控件示例", "自定义Spinner控件","自定义对话框"
         };
         mAdapter = new MyAdapter(getActivity(), myDataset);
         mRecyclerView.setAdapter(mAdapter);
